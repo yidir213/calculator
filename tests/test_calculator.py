@@ -17,7 +17,7 @@ class TestCalculator(TestCase):
 
 
     def test_max(self):
-        self.assertEqual(self.calc.mysum(1, 2), 2)
+        self.assertEqual(self.calc.computeMax(1, 2), 2)
 
 
     def test_min(self):
