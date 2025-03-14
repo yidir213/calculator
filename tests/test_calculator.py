@@ -1,4 +1,7 @@
+import unittest
 from unittest import TestCase
+import sys
+sys.path.append("..")
 from src.calculator import Calculator
 
 class TestCalculator(TestCase):
@@ -8,7 +11,9 @@ class TestCalculator(TestCase):
     def test_sum(self):
         self.assertEqual(self.calc.mysum(1, 2), 3)
 
-    
+    def test_max(self):
+        self.assertEqual(self.calc.mysum(1, 2), 2)
+
     
 if __name__ == '__main__':
     unittest.main()
