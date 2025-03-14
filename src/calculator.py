@@ -7,3 +7,6 @@ class Calculator :
         if (first> second):
             return second
         return first
+
+    def computeMax(self, first_operand, second_operand):
+        return max(first_operand, second_operand)
